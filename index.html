@@ -52,12 +52,12 @@
 			<div>
 				<h4>kWh</h4>
 				<p>Kilowatt-<br>hour cost</p>
-				<input type="number" ng-change="calculate()" ng-model="current_cost" value={{current_cost}}> cents
+				<input type="number" min="0" ng-change="calculate()" ng-model="current_cost" value={{current_cost}}> cents
 			</div>
 			<div>
 				<h4>Hours</h4>
 				<p>Usage <br> per day </p>
-				<input type="number" ng-change="calculate()" ng-model="current_hours" value={{current_hours}}>
+				<input type="number" min="0" ng-change="calculate()" ng-model="current_hours" value={{current_hours}}>
 			</div>
 		</form>
 	</div>
