@@ -7,3 +7,9 @@ This application is very simple for the user to interact with! Simply select the
 
 ![CalcLite Screen Shot](assets/images/screenshot.png)
 
+# Technologies Used
+* HTML
+* CSS
+* Javascript
+* Angular2
+
